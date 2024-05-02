@@ -1,7 +1,6 @@
 from langchain.document_loaders import DirectoryLoader
 from langchain.text_splitter import CharacterTextSplitter
 import os
-import pinecone
 from langchain.vectorstores import Pinecone
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
@@ -23,7 +22,7 @@ from langchain.document_loaders import PyPDFLoader
 
 
 def doc_preprocessing():
-    loader = PyPDFLoader("Kamel_motivation.pdf")
+    loader = PyPDFLoader("TICADI - Spécifications - 2024-04-10 - WorkFlowy.pdf")
     #loader = DirectoryLoader(
     #    'data/',
     #    glob='**/*.pdf',  # only the PDFs

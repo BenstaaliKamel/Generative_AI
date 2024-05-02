@@ -1,0 +1,20 @@
+user: 7
+bot: Chatbot: 7
+user: kamel
+bot: Chatbot: kamel
+user: question
+bot: Chatbot: question
+user: alors
+bot: Chatbot: alors
+user: tfq
+bot: Chatbot: tfq
+user: 123
+bot: Chatbot: 123
+user: 123456789
+bot: Chatbot: 123456789
+user: 123
+bot: Chatbot: I'm sorry, I don't have information on "123" based on the context provided. If you have a different question or need assistance with something else, feel free to ask!
+user: what is ticadi
+bot: Chatbot: I don't have enough information to provide a specific answer about what Ticadi is.
+user: qui ont sign� la constitution
+bot: Chatbot: Les personnes qui ont sign� la Constitution des �tats-Unis sont les membres de la Convention constitutionnelle de 1787. Certains des d�l�gu�s les plus connus qui ont sign� la Constitution incluent George Washington, James Madison, Benjamin Franklin, Alexander Hamilton, et d'autres.

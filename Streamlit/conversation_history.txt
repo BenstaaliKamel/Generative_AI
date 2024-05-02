@@ -18,3 +18,7 @@ user: what is ticadi
 bot: Chatbot: I don't have enough information to provide a specific answer about what Ticadi is.
 user: qui ont signï¿½ la constitution
 bot: Chatbot: Les personnes qui ont signï¿½ la Constitution des ï¿½tats-Unis sont les membres de la Convention constitutionnelle de 1787. Certains des dï¿½lï¿½guï¿½s les plus connus qui ont signï¿½ la Constitution incluent George Washington, James Madison, Benjamin Franklin, Alexander Hamilton, et d'autres.
+user: qui suis je 
+bot: Chatbot: D'après les informations fournies, vous êtes un utilisateur qui souhaite activer un compte sur l'application Ticadi, en respectant les étapes et les règles spécifiées pour la création du mot de passe.
+user: qu'est ce que je recherche actuellement à Epitech
+bot: Chatbot: Actuellement, vous recherchez une alternance en parallèle de votre Master 1 à Epitech en vue d'accompagner votre Master 2 en Architecte logiciel, développeur d’applications. Vous n'avez pas encore d'expérience dans le domaine du commerce, mais vous êtes curieux et envisagez d'explorer ce domaine à l'avenir.

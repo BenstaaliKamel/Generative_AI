@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3965400b-f932-4aad-b3a6-b4327f73c5ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain/01_A_LangChain_Deep_Dive_LLMs_Prompts_Chains.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain/01_langchain_deep_dive_old_version.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Langchain/Kamel_motivation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain/data/Kamel_motivation.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Langchain/ProxidDon - Spécifications - 2024-04-10 - WorkFlowy.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain/data/ProxidDon - Spécifications - 2024-04-10 - WorkFlowy.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Langchain/Qst_pinecone_langchain_gpt35_turbo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain/Qst_pinecone_langchain_gpt35_turbo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain_data_preprocessing/02_document_splitting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain_data_preprocessing/02_document_splitting.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain_data_preprocessing/03_vectorstores_and_embeddings.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain_data_preprocessing/03_vectorstores_and_embeddings.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain_data_preprocessing/05_question_answering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain_data_preprocessing/05_question_answering.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain_data_preprocessing/06_chat.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain_data_preprocessing/06_chat.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pinecone/.ipynb_checkpoints/02_A_Pinecone_Deep_Dive-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pinecone/02_A_Pinecone_Deep_Dive.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Langchain/TICADI - Spécifications - 2024-04-10 - WorkFlowy.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain/data/TICADI - Spécifications - 2024-04-10 - WorkFlowy.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Langchain/USConstitution_French.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain/data/USConstitution_French.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Streamlit/chat_ui_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Streamlit/chat_ui_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Streamlit/conversation_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Streamlit/conversation_history.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/kamel/Documents/Repositories/Generative_AI/Streamlit",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kamel/Documents/Repositories/Generative_AI/Streamlit&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kamel\Documents\Repositories\Generative_AI\Streamlit" />
       <recent name="C:\Users\kamel\Documents\Repositories\Generative_AI\Langchain" />
       <recent name="C:\Users\kamel\Documents\Repositories\Generative_AI\Langchain_data_preprocessing" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kamel\Documents\Repositories\Generative_AI\Langchain\data" />
     </key>
   </component>
   <component name="SharedIndexes">

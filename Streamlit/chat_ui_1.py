@@ -1,3 +1,4 @@
+from langchain_community.document_loaders import DirectoryLoader
 from langchain.text_splitter import CharacterTextSplitter
 import os
 from langchain.vectorstores import Pinecone
@@ -17,15 +18,13 @@ OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 
 
-
-
 def doc_preprocessing():
-    loader = PyPDFLoader("TICADI - Spécifications - 2024-04-10 - WorkFlowy.pdf")
-    #loader = DirectoryLoader(
-    #    'data/',
-    #    glob='**/*.pdf',  # only the PDFs
-    #    show_progress=True
-    #)
+    #loader = PyPDFLoader("TICADI - Spécifications - 2024-04-10 - WorkFlowy.pdf")
+    loader = DirectoryLoader(
+        'data/',
+        glob='*.pdf',  # only the PDFs
+        show_progress=True
+    )
     docs = loader.load()
     text_splitter = CharacterTextSplitter(
         chunk_size=1000,

@@ -1,0 +1,14 @@
+.env/
+Langchain/.ipynb_checkpoints/
+Langchain/data
+Langchain/dataone
+Langchain/.env
+Langchain_data_preprocessing/.ipynb_checkpoints
+Langchain_data_preprocessing/.env
+Langchain_data_preprocessing/Apprendre_le_ML_en_une_semaine.pdf
+Pinecone/.ipynb_checkpoints
+Pinecone/data
+Pinecone/.env
+Streamlit/data
+Streamlit/.env
+Streamlit/conversation_history.txt

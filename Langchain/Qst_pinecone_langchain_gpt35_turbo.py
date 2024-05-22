@@ -1,13 +1,16 @@
-from langchain_community.document_loaders import DirectoryLoader
+import glob
+
+from langchain.document_loaders import DirectoryLoader
 from langchain.text_splitter import CharacterTextSplitter
 import os
 from langchain.vectorstores import Pinecone
+from pinecone import Pinecone as pc
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
 from langchain.chat_models import ChatOpenAI
 import streamlit as st
 from dotenv import load_dotenv, find_dotenv
-
+from langchain_community.document_loaders import PyPDFLoader
 
 load_dotenv(find_dotenv())
 
@@ -17,17 +20,37 @@ OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 
-from langchain.document_loaders import PyPDFLoader
 
 
+
+def extract_text_from_pdfs(pdf_folder):
+    """
+    Automatically detect PDF files in a folder, create a PyPDFLoader for each, and extract the text.
+
+    Args:
+        pdf_folder (str): The folder path containing PDF files.
+
+    Returns:
+        loader
+    """
+    # Automatically detect all PDF files in the folder
+    pdf_files = glob.glob(os.path.join(pdf_folder, "*.pdf"))
+    print(pdf_files)
+
+    # Loop through each PDF file path and create a loader
+    for pdf_file in pdf_files:
+        loader = PyPDFLoader(pdf_file)
+
+    return loader
 
 def doc_preprocessing():
-    #loader = PyPDFLoader("TICADI - Spécifications - 2024-04-10 - WorkFlowy.pdf")
-    loader = DirectoryLoader(
-        'data/',
-        glob='*.pdf',  # only the PDFs
-        show_progress=True
-    )
+    #loader = PyPDFLoader("data/ProxidDon - Spécifications - 2024-04-10 - WorkFlowy.pdf")
+    # loader = DirectoryLoader(
+    #    'dataone/',
+    #    glob='*.pdf',  # only the PDFs
+    #    show_progress=True
+    # )
+    loader = extract_text_from_pdfs('data/')
     docs = loader.load()
     text_splitter = CharacterTextSplitter(
         chunk_size=1000,
@@ -41,8 +64,6 @@ def doc_preprocessing():
 def embedding_db():
     # we use the openAI embedding model
     embeddings = OpenAIEmbeddings(model='text-embedding-3-small', dimensions=1536)
-    #pc = Pinecone()
-    #index = pc.index('kameltrain')
     docs_split = doc_preprocessing()
     doc_db = Pinecone.from_documents(docs_split, embeddings, index_name = 'kameltrainvectors')
     return doc_db

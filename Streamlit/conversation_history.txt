@@ -22,3 +22,9 @@ user: qui suis je
 bot: Chatbot: D'après les informations fournies, vous êtes un utilisateur qui souhaite activer un compte sur l'application Ticadi, en respectant les étapes et les règles spécifiées pour la création du mot de passe.
 user: qu'est ce que je recherche actuellement à Epitech
 bot: Chatbot: Actuellement, vous recherchez une alternance en parallèle de votre Master 1 à Epitech en vue d'accompagner votre Master 2 en Architecte logiciel, développeur d’applications. Vous n'avez pas encore d'expérience dans le domaine du commerce, mais vous êtes curieux et envisagez d'explorer ce domaine à l'avenir.
+user: qu'est ce que je recherche actuellement à Epitech
+bot: Chatbot: Désolé, je ne dispose pas de ces informations.
+user: qui ont signï¿½ la constitution
+bot: Chatbot: Je ne dispose pas des informations nécessaires pour répondre à cette question.
+user: qu'est ce que je recherche actuellement à Epitech
+bot: Chatbot: Désolé, je ne dispose pas de cette information.

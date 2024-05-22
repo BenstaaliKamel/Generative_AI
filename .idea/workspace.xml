@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3965400b-f932-4aad-b3a6-b4327f73c5ca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain/Kamel_motivation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain/data/Kamel_motivation.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain/ProxidDon - Spécifications - 2024-04-10 - WorkFlowy.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain/data/ProxidDon - Spécifications - 2024-04-10 - WorkFlowy.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Langchain/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Langchain/Qst_pinecone_langchain_gpt35_turbo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain/Qst_pinecone_langchain_gpt35_turbo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain/TICADI - Spécifications - 2024-04-10 - WorkFlowy.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain/data/TICADI - Spécifications - 2024-04-10 - WorkFlowy.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain/USConstitution_French.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain/data/USConstitution_French.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Langchain/requirements" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Langchain_data_preprocessing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Langchain_data_preprocessing/01_document_loading_langchain.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain_data_preprocessing/01_document_loading_langchain.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Langchain_data_preprocessing/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pinecone/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pinecone/Pinecone_Deep_Dive.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Pinecone/Pinecone_Deep_Dive.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Streamlit/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Streamlit/TICADI - Spécifications - 2024-04-10 - WorkFlowy.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Streamlit/chat_ui_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Streamlit/chat_ui_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Streamlit/conversation_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Streamlit/conversation_history.txt" afterDir="false" />
     </list>
@@ -18,6 +24,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,27 +42,70 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2faoM6YdwpY8l1RVZe0J2oDGRjy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kamel/Documents/Repositories/Generative_AI/Streamlit&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.chat_ui_1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/kamel/Documents/Repositories/Generative_AI/Pinecone",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "GitIgnore"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kamel\Documents\Repositories\Generative_AI\Pinecone" />
+      <recent name="C:\Users\kamel\Documents\Repositories\Generative_AI\Streamlit\data" />
+      <recent name="C:\Users\kamel\Documents\Repositories\Generative_AI\Langchain\dataone" />
       <recent name="C:\Users\kamel\Documents\Repositories\Generative_AI\Streamlit" />
       <recent name="C:\Users\kamel\Documents\Repositories\Generative_AI\Langchain" />
-      <recent name="C:\Users\kamel\Documents\Repositories\Generative_AI\Langchain_data_preprocessing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kamel\Documents\Repositories\Generative_AI\Langchain\data" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="chat_ui_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Generative_AI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Streamlit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Streamlit/chat_ui_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.chat_ui_1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3965400b-f932-4aad-b3a6-b4327f73c5ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain/Qst_pinecone_langchain_gpt35_turbo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain/Qst_pinecone_langchain_gpt35_turbo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain/requirements" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain_data_preprocessing/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain_data_preprocessing/01_document_loading_langchain.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain_data_preprocessing/01_document_loading_langchain.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain_data_preprocessing/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pinecone/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pinecone/Pinecone_Deep_Dive.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Pinecone/Pinecone_Deep_Dive.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Streamlit/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Streamlit/TICADI - Spécifications - 2024-04-10 - WorkFlowy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Streamlit/chat_ui_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Streamlit/chat_ui_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Streamlit/conversation_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Streamlit/conversation_history.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Langchain/retrieaval_trainless.py" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain/retrieaval_trainless.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,23 +38,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.chat_ui_1.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/kamel/Documents/Repositories/Generative_AI/Pinecone",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.chat_ui_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.first_scrap.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kamel/Documents/Repositories/Generative_AI&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "GitIgnore"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;GitIgnore&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kamel\Documents\Repositories\Generative_AI\Pinecone" />
